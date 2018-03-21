@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.xuepeng.checkpermissionincode">
+    <permission android:name="com.example.xuepeng.checkpermissionincode.permission.SAY_HELLO"></permission>
+    <uses-permission android:name="com.example.xuepeng.checkpermissionincode.permission.SAY_HELLO"></uses-permission>
 
     <application
         android:allowBackup="true"
